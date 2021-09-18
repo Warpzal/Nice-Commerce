@@ -1,0 +1,9 @@
+//Need to access $breakpoints map on MQ mixin
+@use 'sass:map';
+
+@mixin mq($key) {
+    $size: map.get($breakpoints, $key);
+    @media (min-width: $size) {
+        @content;
+    }
+}

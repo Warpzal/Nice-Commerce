@@ -1,30 +1,61 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </div>
-  <router-view/>
+	<router-view></router-view>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root {
+	--primary-color: hsl(212, 100%, 61%);
+	--primary-color-dark: hsl(212, 100%, 48%);
+	--text-color: hsla(221, 68%, 17%, 0.7);
+	--text-color-dark: hsl(221, 68%, 17%);
 }
 
-#nav {
-  padding: 30px;
+html {
+	font-size: 62.5%;
+	@include mq(lg) {
+		font-size: 55%;
+	}
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+a,
+a:focus,
+a:hover {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: var(--text-color);
+}
+
+/* UTILITY CLASSES */
+.is-invisible {
+	display: none !important;
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+	color: white;
+	border-radius: 0.8rem;
+	padding: 1rem 1.8rem;
+	background: var(--primary-color);
+	font-weight: bold;
+	&:hover {
+		background: var(--primary-color-dark);
+	}
 }
 </style>

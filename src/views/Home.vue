@@ -1,18 +1,40 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+	<div class="container">
+		<Navigation />
+		<Hero />
+		<Brands />
+		<Stats />
+	</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import Navigation from '@/components/Navigation'
+import Hero from '@/components/Hero.vue'
+import Brands from '@/components/Brands'
+import Stats from '@/components/Stats'
 
 export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
+	components: {
+		Navigation,
+		Hero,
+		Brands,
+		Stats,
+	},
 }
 </script>
+
+<style lang="scss">
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+
+	@include mq(lg) {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			'nav nav'
+			'hero hero'
+			'brands stats';
+	}
+}
+</style>
