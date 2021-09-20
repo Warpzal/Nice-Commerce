@@ -1,4 +1,3 @@
-# css-grid-practice
 
 ## Project setup
 ```
