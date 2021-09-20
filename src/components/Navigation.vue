@@ -110,7 +110,7 @@ export default {
 
 <style lang="scss">
 .is-invisible {
-	display: none;
+	display: none !important;
 }
 
 .overlay {

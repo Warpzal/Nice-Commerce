@@ -2,6 +2,9 @@
 	font-family: 'Averia Libre', cursive;
 	color: var(--text-color-dark);
 	font-size: 3rem;
+	@include mq(md) {
+		font-size: 3.5rem;
+	}
 }
 
 .btn {
