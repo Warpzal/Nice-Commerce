@@ -80,7 +80,7 @@
 			<li><a class="nav__link" href="#">Why Nice Commerce</a></li>
 			<li><a class="nav__link" href="#">Shop</a></li>
 			<li><button class="nav__btn btn" href="#">Lets Chat</button></li>
-			<div @click="toggleMenu" class="overlay"></div>
+			<div v-if="isOpen" @click="toggleMenu" class="overlay"></div>
 		</ul>
 		<ul class="nav__menu mobile">
 			<i
@@ -191,6 +191,9 @@ export default {
 }
 
 @include mq(lg) {
+	.overlay {
+		display: none;
+	}
 	.nav {
 		grid-template-areas: 'logoArea links';
 		&__links {
