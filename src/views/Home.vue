@@ -8,6 +8,7 @@
 		<Features />
 		<MainContent />
 		<SecondaryContent />
+		<Icons />
 	</div>
 </template>
 
@@ -20,6 +21,7 @@ import BasicSection1 from '../components/BasicSection1.vue'
 import Features from '@/components/Features'
 import MainContent from '@/components/MainContent'
 import SecondaryContent from '@/components/SecondaryContent'
+import Icons from '@/components/Icons'
 
 export default {
 	components: {
@@ -31,6 +33,7 @@ export default {
 		Features,
 		MainContent,
 		SecondaryContent,
+		Icons,
 	},
 }
 </script>
@@ -49,7 +52,8 @@ export default {
 			'brands stats'
 			'section features'
 			'main1 main1'
-			'main2 main2';
+			'main2 main2'
+			'icons icons';
 	}
 }
 </style>
