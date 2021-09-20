@@ -1,0 +1,22 @@
+.text-fancy {
+	font-family: 'Averia Libre', cursive;
+	color: var(--text-color-dark);
+	font-size: 3rem;
+}
+
+.is-invisible {
+	display: none !important;
+}
+
+.btn {
+	cursor: pointer;
+	border: none;
+	color: white;
+	border-radius: 0.8rem;
+	padding: 1rem 1.8rem;
+	background: var(--primary-color);
+	font-weight: bold;
+	&:hover {
+		background: var(--primary-color-dark);
+	}
+}

@@ -1,17 +1,17 @@
 <template>
 	<section class="stats">
 		<p class="stats__card stats__card--1">
-			<span class="stats__statistic">93%</span>
+			<span class="stats__statistic text-fancy">93%</span>
 			<span class="stats__description"
 				>Orders shipped in less than 12 hours</span
 			>
 		</p>
 		<p class="stats__card stats__card--2">
-			<span class="stats__statistic">100%</span>
+			<span class="stats__statistic text-fancy">100%</span>
 			<span class="stats__description">Scan-based Facility</span>
 		</p>
 		<p class="stats__card stats__card--3">
-			<span class="stats__statistic">175+</span>
+			<span class="stats__statistic text-fancy">175+</span>
 			<span class="stats__description">Active Retention Automations</span>
 		</p>
 	</section>

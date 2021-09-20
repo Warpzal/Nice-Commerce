@@ -1,6 +1,8 @@
 <template>
 	<section class="section">
-		<p class="section__title">Much, much more than just picking and packing</p>
+		<p class="section__title text-fancy">
+			Much, much more than just picking and packing
+		</p>
 
 		<button class="section__button btn">
 			<span>See everything we do</span>
@@ -155,7 +157,7 @@
 		align-items: left;
 		&__title {
 			text-align: left;
-			font-size: 4.8rem;
+			font-size: 4.2rem;
 			max-width: 80%;
 		}
 		&__button {

@@ -6,6 +6,7 @@
 		<Stats />
 		<BasicSection1 />
 		<Features />
+		<MainContent />
 	</div>
 </template>
 
@@ -16,6 +17,7 @@ import Brands from '@/components/Brands'
 import Stats from '@/components/Stats'
 import BasicSection1 from '../components/BasicSection1.vue'
 import Features from '@/components/Features'
+import MainContent from '@/components/MainContent'
 
 export default {
 	components: {
@@ -25,6 +27,7 @@ export default {
 		Stats,
 		BasicSection1,
 		Features,
+		MainContent,
 	},
 }
 </script>
