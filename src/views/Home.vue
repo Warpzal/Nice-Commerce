@@ -4,6 +4,8 @@
 		<Hero />
 		<Brands />
 		<Stats />
+		<BasicSection1 />
+		<Features />
 	</div>
 </template>
 
@@ -12,6 +14,8 @@ import Navigation from '@/components/Navigation'
 import Hero from '@/components/Hero.vue'
 import Brands from '@/components/Brands'
 import Stats from '@/components/Stats'
+import BasicSection1 from '../components/BasicSection1.vue'
+import Features from '@/components/Features'
 
 export default {
 	components: {
@@ -19,6 +23,8 @@ export default {
 		Hero,
 		Brands,
 		Stats,
+		BasicSection1,
+		Features,
 	},
 }
 </script>
