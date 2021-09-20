@@ -54,6 +54,7 @@ export default {
 .container {
 	max-width: 1440px;
 	margin: 0 auto;
+	overflow: hidden;
 
 	@include mq(lg) {
 		display: grid;
