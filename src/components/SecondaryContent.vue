@@ -41,7 +41,7 @@
 	}
 	&__paragraph {
 		color: var(--text-color-dark);
-		font-size: 1.4rem;
+		font-size: 1.6rem;
 		padding: 1rem 0;
 		&:last-child {
 			padding-bottom: 5rem;
