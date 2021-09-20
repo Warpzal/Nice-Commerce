@@ -42,6 +42,7 @@
 
 <style lang="scss">
 .features {
+	grid-area: features;
 	padding: 5rem 2rem;
 	display: grid;
 	grid-template-columns: 1fr 1fr;

@@ -6,6 +6,8 @@
 		<Stats />
 		<BasicSection1 />
 		<Features />
+		<MainContent />
+		<SecondaryContent />
 	</div>
 </template>
 
@@ -16,6 +18,8 @@ import Brands from '@/components/Brands'
 import Stats from '@/components/Stats'
 import BasicSection1 from '../components/BasicSection1.vue'
 import Features from '@/components/Features'
+import MainContent from '@/components/MainContent'
+import SecondaryContent from '@/components/SecondaryContent'
 
 export default {
 	components: {
@@ -25,6 +29,8 @@ export default {
 		Stats,
 		BasicSection1,
 		Features,
+		MainContent,
+		SecondaryContent,
 	},
 }
 </script>
@@ -40,7 +46,10 @@ export default {
 		grid-template-areas:
 			'nav nav'
 			'hero hero'
-			'brands stats';
+			'brands stats'
+			'section features'
+			'main1 main1'
+			'main2 main2';
 	}
 }
 </style>

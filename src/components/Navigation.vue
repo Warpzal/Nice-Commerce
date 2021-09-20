@@ -80,7 +80,7 @@
 			<li><a class="nav__link" href="#">Why Nice Commerce</a></li>
 			<li><a class="nav__link" href="#">Shop</a></li>
 			<li><button class="nav__btn btn" href="#">Lets Chat</button></li>
-			<div v-if="isOpen" @click="toggleMenu" class="overlay"></div>
+			<div v-show="isOpen" @click="toggleMenu" class="overlay"></div>
 		</ul>
 		<ul class="nav__menu mobile">
 			<i
@@ -109,6 +109,10 @@ export default {
 </script>
 
 <style lang="scss">
+.is-invisible {
+	display: none !important;
+}
+
 .overlay {
 	position: absolute;
 	top: 100%;
@@ -170,9 +174,9 @@ export default {
 	&__links {
 		position: absolute;
 		top: -100%;
-		background: #fff;
+		background: white;
 		width: 100%;
-		padding: 3rem;
+		padding: 3rem 0;
 		grid-area: links;
 		display: flex;
 		flex-direction: column;

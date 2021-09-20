@@ -1,6 +1,8 @@
 <template>
 	<section class="hero">
-		<h1 class="hero__heading">No more operational headaches. Nice.</h1>
+		<h1 class="hero__heading text-fancy">
+			No more operational headaches. Nice.
+		</h1>
 		<p class="hero__paragraph">
 			Use Nice Commerce to offer quicker shipping, boost your bottom lines and
 			get back to focusing on the stuff that really matters.
@@ -32,7 +34,7 @@ export default {}
 
 	&__heading {
 		text-align: center;
-		font-size: 4rem;
+		font-size: 3.5rem;
 		max-width: 50rem;
 	}
 	&__paragraph {
