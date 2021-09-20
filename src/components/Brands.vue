@@ -34,6 +34,7 @@
 
 <style lang="scss">
 .brands {
+	// background: red;
 	grid-area: brands;
 	width: 100%;
 	color: var(--text-color-dark);
