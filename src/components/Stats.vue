@@ -23,11 +23,12 @@ export default {}
 
 <style lang="scss">
 .stats {
+	// background: blue;
+	margin-top: 5rem;
 	grid-area: stats;
 	padding: 0 2rem;
 	display: grid;
 	place-items: center;
-	margin: 5rem 0;
 	&__card {
 		padding: 1rem;
 		border-radius: 1rem;
