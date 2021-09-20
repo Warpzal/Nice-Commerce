@@ -308,6 +308,7 @@
 		border-radius: 1rem;
 		padding-left: 10rem;
 		padding-right: 10rem;
+		padding-bottom: 10rem;
 		&__thumbnail {
 			width: 8rem;
 			height: 8rem;
