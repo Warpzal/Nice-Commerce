@@ -123,6 +123,7 @@
 	grid-area: icons;
 	// background: orange;
 	padding: 2rem;
+	padding-bottom: 8rem;
 	width: 100%;
 	max-width: 80rem;
 	margin: 0 auto;

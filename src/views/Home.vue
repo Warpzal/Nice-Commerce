@@ -9,6 +9,10 @@
 		<MainContent />
 		<SecondaryContent />
 		<Icons />
+		<Testimonials />
+		<CallToAction />
+		<BackgroundSection />
+		<TheFooter />
 	</div>
 </template>
 
@@ -22,6 +26,10 @@ import Features from '@/components/Features'
 import MainContent from '@/components/MainContent'
 import SecondaryContent from '@/components/SecondaryContent'
 import Icons from '@/components/Icons'
+import Testimonials from '@/components/Testimonials'
+import CallToAction from '@/components/CallToAction'
+import BackgroundSection from '@/components/BackgroundSection'
+import TheFooter from '@/components/TheFooter'
 
 export default {
 	components: {
@@ -34,6 +42,10 @@ export default {
 		MainContent,
 		SecondaryContent,
 		Icons,
+		Testimonials,
+		CallToAction,
+		BackgroundSection,
+		TheFooter,
 	},
 }
 </script>
@@ -53,7 +65,11 @@ export default {
 			'section features'
 			'main1 main1'
 			'main2 main2'
-			'icons icons';
+			'icons icons'
+			'testimonials testimonials'
+			'cta cta'
+			'bg bg'
+			'footer footer';
 	}
 }
 </style>
