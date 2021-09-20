@@ -109,6 +109,7 @@ export default {
 
 <style lang="scss">
 .nav {
+	position: relative;
 	grid-area: nav;
 	display: grid;
 	grid-template-columns: auto auto;
@@ -158,6 +159,10 @@ export default {
 	}
 
 	&__links {
+		position: absolute;
+		top: -100%;
+		background: #fff;
+		width: 100%;
 		padding: 3rem;
 		grid-area: links;
 		display: flex;
@@ -180,6 +185,8 @@ export default {
 	.nav {
 		grid-template-areas: 'logoArea links';
 		&__links {
+			position: relative;
+			top: 0;
 			flex-direction: row;
 			justify-content: flex-end;
 			margin-top: 0rem;

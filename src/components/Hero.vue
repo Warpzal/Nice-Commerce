@@ -29,18 +29,17 @@ export default {}
 	align-items: center;
 	text-align: center;
 	color: var(--text-color-dark);
-	&__heading,
-	&__paragraph {
-		max-width: 55rem;
-	}
 
 	&__heading {
 		text-align: center;
 		font-size: 4rem;
+		max-width: 50rem;
 	}
 	&__paragraph {
 		padding: 3rem;
-		font-size: 1.6rem;
+		font-size: 1.8rem;
+		line-height: 24px;
+		max-width: 60rem;
 	}
 	&__btn {
 		font-weight: 500;
@@ -53,6 +52,14 @@ export default {}
 			width: 100%;
 			object-fit: contain;
 			object-position: center;
+		}
+	}
+	@include mq(lg) {
+		&__heading {
+			font-size: 5.2rem;
+		}
+		&__paragraph {
+			font-size: 2rem;
 		}
 	}
 }
