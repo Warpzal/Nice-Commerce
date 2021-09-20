@@ -24,8 +24,8 @@ export default {}
 <style lang="scss">
 .stats {
 	// background: blue;
-	margin-top: 5rem;
 	grid-area: stats;
+	margin-top: 5rem;
 	padding: 0 2rem;
 	display: grid;
 	place-items: center;

@@ -114,6 +114,7 @@
 
 <style lang="scss">
 .section {
+	grid-area: section;
 	padding: 2rem;
 	text-align: center;
 	&__title {
