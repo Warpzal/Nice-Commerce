@@ -21,6 +21,7 @@
 .main {
 	grid-area: main2;
 	padding: 1rem 2rem;
+
 	&__image-container {
 		width: 100%;
 		height: 20rem;
@@ -45,6 +46,12 @@
 		&:last-child {
 			padding-bottom: 5rem;
 		}
+	}
+	@include mq(lg) {
+		text-align: center;
+		max-width: 80rem;
+		margin: 0 auto;
+		margin-top: 8rem;
 	}
 }
 </style>
