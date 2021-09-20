@@ -9,6 +9,7 @@
 		<MainContent />
 		<SecondaryContent />
 		<Icons />
+		<Testimonials />
 	</div>
 </template>
 
@@ -22,6 +23,7 @@ import Features from '@/components/Features'
 import MainContent from '@/components/MainContent'
 import SecondaryContent from '@/components/SecondaryContent'
 import Icons from '@/components/Icons'
+import Testimonials from '@/components/Testimonials'
 
 export default {
 	components: {
@@ -34,6 +36,7 @@ export default {
 		MainContent,
 		SecondaryContent,
 		Icons,
+		Testimonials,
 	},
 }
 </script>
@@ -53,7 +56,8 @@ export default {
 			'section features'
 			'main1 main1'
 			'main2 main2'
-			'icons icons';
+			'icons icons'
+			'testimonials testimonials';
 	}
 }
 </style>
